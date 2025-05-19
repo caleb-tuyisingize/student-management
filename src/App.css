@@ -1,0 +1,19 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.update-msg {
+  background-color:#EBF9DA;
+  padding: 20px;
+  color: #004b2f;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.update-none {
+  display: none;
+}
+.main-content{
+  margin-top: 7%;
+}

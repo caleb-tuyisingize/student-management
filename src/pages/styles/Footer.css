@@ -1,0 +1,48 @@
+.background_color_all {
+  background-color: rgb(214, 227, 225);
+}
+
+.grid-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  padding: 5rem 3rem;
+}
+h6 {
+  margin-top: -1rem;
+  color: rgb(85, 184, 85);
+}
+
+h3 {
+  color: rgb(8, 72, 25);
+}
+
+.flex-wrap {
+  display: flex;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.icon-container {
+  display: flex;
+  gap: 2rem;
+}
+.ico {
+  color: black;
+  cursor: pointer;
+}
+p {
+  display: inline-flex;
+}
+
+@media (max-width: 830px) {
+  .grid-column {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .grid-column {
+    grid-template-columns: 1fr;
+  }
+}

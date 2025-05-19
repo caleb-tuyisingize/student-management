@@ -1,0 +1,139 @@
+.handle-display {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 4px;
+  padding-top: 20px;
+}
+
+.handle-button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.handle-full-color {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px;
+  border-radius: 15px;
+  width: 40%;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.add-color {
+  justify-items: center;
+  justify-content: center;
+  font-size: 5px;
+}
+
+.handle-size {
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px;
+  height: 30px;
+}
+
+.handle-size-form {
+  border-radius: 5px;
+  border: solid 1px;
+  height: 30px;
+}
+
+.button-width {
+  background-color: #83c727;
+  width: 130px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button-color {
+  width: 130px;
+  color: green;
+  border: solid 1px green;
+  border: 1px green solid;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.handle-title {
+  display: inline-flex;
+  gap: 5px;
+}
+
+.set-position {
+  margin-top: 5px;
+}
+
+.final-title {
+  background-color: #d7ebbe;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  gap: 5px;
+  border-radius: 10px;
+  color: #004b2f;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-body {
+  padding: 30px 50px;
+}
+
+.date-birth {
+  width: 163px;
+}
+.handle-picture {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 720px) {
+  .handle-full-color {
+    background-color: #ffffff;
+    height: 560px;
+    box-shadow: 2px 2px 2px;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    overflow-y: scroll;
+    display: block;
+    position: sticky;
+    z-index: 1;
+  }
+  .form-body {
+    width: 100%;
+    display: grid;
+    padding: 12px;
+    grid-template-columns: 1fr;
+  }
+  .form-body div {
+    width: 100%;
+  }
+  .handle-display {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 4px;
+    padding-top: 20px;
+  }
+  #dob {
+    width: 100%;
+  }
+  .final-title {
+    position: sticky;
+  }
+  .handle-button {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .handle-button button {
+    width: 100%;
+  }
+}
