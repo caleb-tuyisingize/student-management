@@ -2,6 +2,7 @@ import './style/Add_student.css';
 import { studentService } from '../lib/api';
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import title from '../assets/title.png';
 const Addstudent = () => {
   const navigate = useNavigate();
 
@@ -49,7 +50,7 @@ const Addstudent = () => {
       <form className="handle-full-color">
         <div className="final-title">
           <div className="handle-title">
-            <img src="./src/assets/title.png" className="handle-picture" alt="wait" />
+            <img src={title} className="handle-picture" alt="wait" />
             <p className="set-position">STUDENTSYNC</p>
           </div>
           <p>Add new student</p>
@@ -152,7 +153,7 @@ const Addstudent = () => {
             <button className="button-width" onClick={handleSubmits}>
               Add
             </button>
-            <button className="button-color" onClick={() => navigate('/pages')}>
+            <button className="button-color" onClick={() => navigate('/StudentList')}>
               Cancel
             </button>
           </div>
