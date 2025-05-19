@@ -6,7 +6,7 @@ import FmdFacebookIcon from '@mui/icons-material/Facebook';
 import FmdYouTubeIcon from '@mui/icons-material/YouTube';
 import FmdInstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from 'react-router-dom';
-import '../components/footer.css';
+import './styles/Footer.css';
 
 const FooterPart = () => {
   return (
